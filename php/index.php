@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Employee Management System</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
 <div class="wrapper">
