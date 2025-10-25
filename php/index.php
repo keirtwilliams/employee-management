@@ -11,8 +11,8 @@
     <h2>Employee Management System</h2>
 
     <div class="add-btn-container">
-        <a href="add.php" class="add-btn">+ Add Employee</a>
-            <a href="index.html" class="home-btn"> Home</a>
+        <a href="Add.php" class="add-btn">+ Add Employee</a>
+            <a href="../html/index.html" class="home-btn"> Home</a>
 
     </div>
 

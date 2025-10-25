@@ -164,9 +164,13 @@ body {
 }
 
 .hero-img {
-    width: 500px;
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
     border-radius: 12px;
     box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+    display: block; 
+    margin: 0 auto; 
 }
 /* ===============================
    DASHBOARD / TABLE SECTION
@@ -174,7 +178,7 @@ body {
 
 .wrapper {
     width: 90%;
-    max-width: 1400px; /* Increased for better layout */
+    max-width: 1400px; 
     margin: 50px auto;
     background: #ffffff;
     padding: 30px;
@@ -589,6 +593,11 @@ section {
 
 
 @media (max-width: 480px) {
+    .hero-img {
+        max-width: 90%;
+        border-radius: 8px; 
+    }
+
   h1 {
     font-size: 1.5rem;
   }

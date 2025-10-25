@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Add Employee</title>
-    <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="../styles/add/add.css">
 </head>
 <body>
 
@@ -68,9 +68,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <button type="submit" class="button">Add Employee</button>
     </form>
-git
+
 <div class="back-container">
-    <a href="index.php" class="back-link"> Back to List</a>
+     <a href="index.php" class="back-link">Back to List</a>
 </div>
 
 </div>
